@@ -1,0 +1,12 @@
+@mixin btnClock ($color,$background){
+       
+        height: 30px;
+        width: 100px;
+        background: $color;
+        color: $background;
+        font-size: 15px;
+        font-weight: 700;
+        border-radius: 24px;
+        border: none;   
+        cursor: pointer;
+}

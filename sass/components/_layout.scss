@@ -1,0 +1,26 @@
+%display-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+%container-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%container-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@mixin flexCenter($direction,$jusContent,$aliItemns) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $jusContent;
+    align-items: $aliItemns;
+}
