@@ -1,0 +1,5 @@
+@use 'components/colors';
+
+.body{
+    background: colors.$color-primary;
+}
