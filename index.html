@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <title>Reloj Digital|Alarma</title>
+    <title>Reloj Digital | Alarma</title>
 </head>
 <body class="body">
     <section id="alarm" class="alarm">
@@ -14,14 +14,13 @@
             <div class="clock">
                 <p class="date" id="date"></p>
             </div>
-            <div class="clock">
-                <h2>Lista de alarmas</h2>
-
-            <div>
-                <input type="text">
-                <button class="button">Agregar</button>
-                <button class="button">Editar</button>
-            </div>
+            <div id="clock-right" class="clock">
+                <h2 id="title-list">Lista de alarmas</h2>
+                <div id="alarm-btns">
+                    <input id="timeAlarm" type="time"> 
+                    <input type="button" value="Agregar" id="newAlarm" class="button" >
+                    <input type="button" value="Editar" id="editAlarm" class="button">
+                </div>
             </div>
         </div>
     </section>

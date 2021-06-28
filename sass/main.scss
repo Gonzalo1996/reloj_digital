@@ -24,7 +24,7 @@
     width: 800px;  
     @include l.flexCenter(row,space-around,center);
     
-    & div:nth-of-type(1){ //AGREGO SOLO EL @EXTEND EN EL PRIMER DIV DE .CONTAINER
+    > div:nth-of-type(1){ //AGREGO SOLO EL @EXTEND EN EL PRIMER DIV DE .CONTAINER
         @extend %container-left;
     }
     
